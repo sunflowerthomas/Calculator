@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>sunflowerthomas's Calculator</h1>
         <p>Enter 2 numbers below</p>
-        <form>
+        <div id="calc"><form>
             <input type="number" id="1num" name="1num"><br>
             <input type="radio" id="add" name="add">
             <label for="add">+</label><br>
@@ -17,6 +18,7 @@
             <input type="radio" id="divide" name="divide">
             <label for="divide">/</label><br>
             <input type="number" id="2num" name="2num"><br>
-        </form>
+            <input type="button" value="Calculate" onclick="alert('Error')">
+        </form></div>
     </body>
 </html>
