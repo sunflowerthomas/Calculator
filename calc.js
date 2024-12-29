@@ -13,7 +13,7 @@ function calculate() {
     var output = document.getElementById('output')
 
     if (selected == "add") {
-        output.innerHTML = (num1.value + num2.value);
+        output.innerHTML = (new Number(num1.value) + new Number(num2.value));
     }
     else if (selected == "subtract") {
         output.innerHTML = (num1.value - num2.value);
