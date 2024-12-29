@@ -1,6 +1,15 @@
 #calc {
-    background-color: aquamarine;
+    background-color: rgb(89, 151, 130);
     padding: 20px;
     margin: 5px;
     border-radius: 25px;
+}
+
+/*
+    Let's get rid of this ugly white background
+*/
+
+body {
+    background: linear-gradient(#2b2c2c, #454645);
+    color: rgb(207, 205, 205);
 }
