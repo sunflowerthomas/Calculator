@@ -6,8 +6,8 @@
         <script src="calc.js"></script>
     </head>
     <body>
-        <h1>sunflowerthomas's Calculator</h1>
-        <p>Enter 2 numbers below</p>
+        <h1>Sunflowerthomas's calculator</h1>
+        <h3>Enter two numbers below</h3>
         <div id="calc"><form>
             <input type="number" id="1num" name="1num" value="" placeholder="Insert value here"><br>
             <input type="radio" id="add" name="calc-type" value="add">
@@ -15,12 +15,12 @@
             <input type="radio" id="subtract" name="calc-type" value="subtract">
             <label for="subtract">-</label><br>
             <input type="radio" id="multiply" name="calc-type" value="multiply">
-            <label for="multiply">*</label><br>
+            <label for="multiply">×</label><br>
             <input type="radio" id="divide" name="calc-type" value="divide">
-            <label for="divide">/</label><br>
+            <label for="divide">÷</label><br>
             <input type="number" id="2num" name="2num" value="" placeholder="Insert value here"><br>
-            <input type="button" value="Calculate" onclick="calculate()">
+            <input class="Select" type="button" value="Calculate" onclick="calculate()">
         </form></div>
-        <p id="output"></p>
+        <h3 class="OutputNum" id="output">Please input value</h3>
     </body>
 </html>
