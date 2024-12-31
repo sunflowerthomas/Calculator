@@ -25,6 +25,6 @@ function calculate() {
         output.innerHTML = (num1.value / num2.value);
     }
     else {
-        output.innerHTML = "Error"
+        output.innerHTML = "Error: Don't forgot to fill out all fields!"
     }
 }

@@ -1,9 +1,12 @@
 #calc {
-    background-color: rgb(89, 151, 130);
+    background-color: #6610f2;
     padding: 20px;
     margin: auto;
     border-radius: 25px;
-    width: 175px;
+    width: 515px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*
@@ -11,7 +14,7 @@
 */
 
 body {
-    background: linear-gradient(#2b2c2c, #454645);
+    background-color: #161616;
     color: rgb(224, 224, 224);
 }
 
@@ -33,4 +36,8 @@ h1 {
 
 h3 {
     text-align: center;
+}
+
+.Select {
+    cursor: pointer;
 }
