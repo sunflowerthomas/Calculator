@@ -22,7 +22,12 @@ function calculate() {
         output.innerHTML = (num1.value * num2.value);
     }
     else if (selected == "divide") {
-        output.innerHTML = (num1.value / num2.value);
+        if (num2 == 0) {
+            output.innerHTML = "Error: Attempted division by zero"
+        }
+        else {
+            output.innerHTML = (num1.value / num2.value);
+        }
     }
     else {
         output.innerHTML = "Error: Don't forgot to fill out all fields!"
